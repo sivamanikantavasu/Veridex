@@ -1,0 +1,16 @@
+com\scholarsphere\veridex\usageservice\model\AuditEvent$AuditEventBuilder.class
+com\scholarsphere\veridex\usageservice\repository\UserCollectionRepository.class
+com\scholarsphere\veridex\usageservice\controller\UsageController.class
+com\scholarsphere\veridex\usageservice\repository\AuditEventRepository.class
+com\scholarsphere\veridex\usageservice\UsageServiceApplication.class
+com\scholarsphere\veridex\usageservice\repository\ReadingEventRepository.class
+com\scholarsphere\veridex\usageservice\service\UsageService.class
+com\scholarsphere\veridex\usageservice\model\UserCollection.class
+com\scholarsphere\veridex\usageservice\config\SecurityConfig.class
+com\scholarsphere\veridex\usageservice\model\UserCollection$UserCollectionBuilder.class
+com\scholarsphere\veridex\usageservice\model\CollectionItem.class
+com\scholarsphere\veridex\usageservice\model\ReadingEvent$ReadingEventBuilder.class
+com\scholarsphere\veridex\usageservice\model\AuditEvent.class
+com\scholarsphere\veridex\usageservice\model\ReadingEvent.class
+com\scholarsphere\veridex\usageservice\repository\CollectionItemRepository.class
+com\scholarsphere\veridex\usageservice\model\CollectionItem$CollectionItemBuilder.class

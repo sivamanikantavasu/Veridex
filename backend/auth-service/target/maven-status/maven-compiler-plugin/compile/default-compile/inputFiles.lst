@@ -1,0 +1,9 @@
+D:\Veridex\backend\auth-service\src\main\java\com\scholarsphere\veridex\authservice\AuthServiceApplication.java
+D:\Veridex\backend\auth-service\src\main\java\com\scholarsphere\veridex\authservice\config\DefaultUserSeeder.java
+D:\Veridex\backend\auth-service\src\main\java\com\scholarsphere\veridex\authservice\config\SecurityConfig.java
+D:\Veridex\backend\auth-service\src\main\java\com\scholarsphere\veridex\authservice\controller\AuthController.java
+D:\Veridex\backend\auth-service\src\main\java\com\scholarsphere\veridex\authservice\model\AuditEvent.java
+D:\Veridex\backend\auth-service\src\main\java\com\scholarsphere\veridex\authservice\model\User.java
+D:\Veridex\backend\auth-service\src\main\java\com\scholarsphere\veridex\authservice\repository\AuditEventRepository.java
+D:\Veridex\backend\auth-service\src\main\java\com\scholarsphere\veridex\authservice\repository\UserRepository.java
+D:\Veridex\backend\auth-service\src\main\java\com\scholarsphere\veridex\authservice\service\AuthService.java

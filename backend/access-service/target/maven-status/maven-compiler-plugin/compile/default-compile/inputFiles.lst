@@ -1,0 +1,6 @@
+D:\Veridex\backend\access-service\src\main\java\com\scholarsphere\veridex\accessservice\AccessServiceApplication.java
+D:\Veridex\backend\access-service\src\main\java\com\scholarsphere\veridex\accessservice\config\SecurityConfig.java
+D:\Veridex\backend\access-service\src\main\java\com\scholarsphere\veridex\accessservice\controller\AccessController.java
+D:\Veridex\backend\access-service\src\main\java\com\scholarsphere\veridex\accessservice\model\UserPlan.java
+D:\Veridex\backend\access-service\src\main\java\com\scholarsphere\veridex\accessservice\repository\UserPlanRepository.java
+D:\Veridex\backend\access-service\src\main\java\com\scholarsphere\veridex\accessservice\service\AccessService.java

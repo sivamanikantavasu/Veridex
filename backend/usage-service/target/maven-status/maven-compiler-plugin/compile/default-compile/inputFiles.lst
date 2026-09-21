@@ -1,0 +1,12 @@
+D:\Veridex\backend\usage-service\src\main\java\com\scholarsphere\veridex\usageservice\config\SecurityConfig.java
+D:\Veridex\backend\usage-service\src\main\java\com\scholarsphere\veridex\usageservice\controller\UsageController.java
+D:\Veridex\backend\usage-service\src\main\java\com\scholarsphere\veridex\usageservice\model\AuditEvent.java
+D:\Veridex\backend\usage-service\src\main\java\com\scholarsphere\veridex\usageservice\model\CollectionItem.java
+D:\Veridex\backend\usage-service\src\main\java\com\scholarsphere\veridex\usageservice\model\ReadingEvent.java
+D:\Veridex\backend\usage-service\src\main\java\com\scholarsphere\veridex\usageservice\model\UserCollection.java
+D:\Veridex\backend\usage-service\src\main\java\com\scholarsphere\veridex\usageservice\repository\AuditEventRepository.java
+D:\Veridex\backend\usage-service\src\main\java\com\scholarsphere\veridex\usageservice\repository\CollectionItemRepository.java
+D:\Veridex\backend\usage-service\src\main\java\com\scholarsphere\veridex\usageservice\repository\ReadingEventRepository.java
+D:\Veridex\backend\usage-service\src\main\java\com\scholarsphere\veridex\usageservice\repository\UserCollectionRepository.java
+D:\Veridex\backend\usage-service\src\main\java\com\scholarsphere\veridex\usageservice\service\UsageService.java
+D:\Veridex\backend\usage-service\src\main\java\com\scholarsphere\veridex\usageservice\UsageServiceApplication.java

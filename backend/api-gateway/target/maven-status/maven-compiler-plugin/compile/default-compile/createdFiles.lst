@@ -1,0 +1,3 @@
+com\scholarsphere\veridex\apigateway\ApiGatewayApplication.class
+com\scholarsphere\veridex\apigateway\GatewaySecurityConfig.class
+com\scholarsphere\veridex\apigateway\JwtAuthenticationGatewayFilterFactory.class

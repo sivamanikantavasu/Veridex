@@ -1,0 +1,7 @@
+com\scholarsphere\veridex\accessservice\repository\UserPlanRepository.class
+com\scholarsphere\veridex\accessservice\service\AccessService.class
+com\scholarsphere\veridex\accessservice\config\SecurityConfig.class
+com\scholarsphere\veridex\accessservice\service\AccessService$1.class
+com\scholarsphere\veridex\accessservice\AccessServiceApplication.class
+com\scholarsphere\veridex\accessservice\controller\AccessController.class
+com\scholarsphere\veridex\accessservice\model\UserPlan.class

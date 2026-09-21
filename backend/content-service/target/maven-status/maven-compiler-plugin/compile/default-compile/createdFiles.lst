@@ -1,0 +1,8 @@
+com\scholarsphere\veridex\contentservice\ContentServiceApplication.class
+com\scholarsphere\veridex\contentservice\model\ContentItem.class
+com\scholarsphere\veridex\contentservice\config\SecurityConfig.class
+com\scholarsphere\veridex\contentservice\controller\ContentController.class
+com\scholarsphere\veridex\contentservice\service\ContentService$ResourceFile.class
+com\scholarsphere\veridex\contentservice\service\ContentService.class
+com\scholarsphere\veridex\contentservice\model\ContentItem$ContentItemBuilder.class
+com\scholarsphere\veridex\contentservice\repository\ContentRepository.class

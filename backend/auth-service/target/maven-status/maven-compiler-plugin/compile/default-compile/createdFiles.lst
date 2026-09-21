@@ -1,0 +1,11 @@
+com\scholarsphere\veridex\authservice\config\DefaultUserSeeder.class
+com\scholarsphere\veridex\authservice\model\AuditEvent.class
+com\scholarsphere\veridex\authservice\model\User$UserBuilder.class
+com\scholarsphere\veridex\authservice\model\User.class
+com\scholarsphere\veridex\authservice\AuthServiceApplication.class
+com\scholarsphere\veridex\authservice\controller\AuthController.class
+com\scholarsphere\veridex\authservice\service\AuthService.class
+com\scholarsphere\veridex\authservice\repository\UserRepository.class
+com\scholarsphere\veridex\authservice\repository\AuditEventRepository.class
+com\scholarsphere\veridex\authservice\config\SecurityConfig.class
+com\scholarsphere\veridex\authservice\model\AuditEvent$AuditEventBuilder.class

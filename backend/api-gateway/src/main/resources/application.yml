@@ -1,0 +1,64 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: auth-route
+          uri: lb://AUTH-SERVICE
+          predicates:
+            - Path=/api/auth/**
+          filters:
+            - RewritePath=/api/auth/(?<segment>.*), /api/auth/$\{segment}
+        - id: content-route
+          uri: http://localhost:9002
+          predicates:
+            - Path=/api/content/**
+          filters:
+            - RewritePath=/api/content/(?<segment>.*), /api/content/$\{segment}
+        - id: access-route
+          uri: lb://ACCESS-SERVICE
+          predicates:
+            - Path=/api/access/**
+          filters:
+            - RewritePath=/api/access/(?<segment>.*), /api/access/$\{segment}
+        - id: usage-route
+          uri: lb://USAGE-SERVICE
+          predicates:
+            - Path=/api/usage/**
+          filters:
+            - RewritePath=/api/usage/(?<segment>.*), /api/usage/$\{segment}
+
+      default-filters:
+        - name: JwtAuthentication
+
+  security:
+    user:
+      name: admin
+      password: admin
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true
+
+jwt:
+  secret: scholarSphereDigitalVeridexSuperSecretSecureKeyForJwtSigning2026
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

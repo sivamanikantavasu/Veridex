@@ -1,0 +1,9 @@
+{
+  "name": "veridex-root",
+  "private": true,
+  "scripts": {
+    "dev:all": "npm --prefix Frontend run dev:all",
+    "dev": "npm --prefix Frontend run dev",
+    "build": "npm --prefix Frontend run build"
+  }
+}

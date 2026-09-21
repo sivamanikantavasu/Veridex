@@ -1,0 +1,61 @@
+:root {
+  --bg-base: #120709;
+  --bg-surface: #1A0B0F;
+  --bg-elevated: #241116;
+  --bg-hover: #2E161D;
+  --border-subtle: #3A1D25;
+  --border-strong: #532733;
+
+  --burgundy-900: #2B0A12;
+  --burgundy-800: #3D0E1B;
+  --burgundy-700: #571225;
+  --burgundy-600: #6E1630;
+  --burgundy-500: #800020;
+  --burgundy-400: #A3324F;
+  --burgundy-300: #C45A73;
+  --burgundy-200: #E0A0B0;
+
+  --text-primary: #F4E9EC;
+  --text-secondary: #C9B3B9;
+  --text-muted: #8F7A81;
+
+  --accent-brass: #B89B5E;
+
+  /* Section accent palette — varied burgundy tones for visual hierarchy */
+  --section-user-home: var(--burgundy-700);
+  --section-library: var(--burgundy-600);
+  --section-admin: var(--burgundy-800);
+  --section-reader: var(--burgundy-900);
+  --section-brand: var(--burgundy-400);
+
+  --success: #4E9F7D;
+  --success-bg: rgba(78,159,125,0.12);
+  --warning: #D19A3E;
+  --warning-bg: rgba(209,154,62,0.12);
+  --danger: #E5484D;
+  --danger-bg: rgba(229,72,77,0.10);
+  --info: #6B8FB8;
+  --info-bg: rgba(107,143,184,0.12);
+  --teal: #3D9E9E;
+  --teal-bg: rgba(61,158,158,0.12);
+  --indigo: #7B6FD0;
+  --indigo-bg: rgba(123,111,208,0.12);
+
+  --font-serif: 'Fraunces', 'Source Serif 4', Georgia, serif;
+  --font-sans: 'Inter', 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+
+  --shadow-card: 0 1px 0 var(--border-subtle), 0 4px 16px rgba(0,0,0,0.4);
+
+  --transition: 150ms ease-out;
+  --transition-md: 200ms ease-out;
+
+  --nav-height: 64px;
+  --sidebar-width: 240px;
+  --sidebar-collapsed: 56px;
+  --content-max: 1280px;
+}
